@@ -15,7 +15,6 @@ const CheckIns = () => {
       setReceivedData(sortedData);
     },
   });
-  //test by nick
 
   if (loading) {
     return <Loader LoadingText={'Loading Check-Ins'} />;
